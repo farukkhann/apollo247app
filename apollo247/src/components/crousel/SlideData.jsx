@@ -1,0 +1,26 @@
+export const SlideData = [
+    {
+      image:
+        "https://newassets.apollo247.com/images/banners/PremiumHealth_circle.jpg"
+    },
+    {
+      image:
+        "https://newassets.apollo247.com/images/banners/First3.jpg"
+    },
+    {
+      image:
+        "https://newassets.apollo247.com/images/banners/Super_30.jpg"
+    },
+    {
+      image:
+      "https://newassets.apollo247.com/images/banners/HH_16June.jpg"
+    },
+    {
+      image:
+      "https://newassets.apollo247.com/images/banners/Huggies_18Jun.jpg"
+    },
+    {
+        image:
+        "https://newassets.apollo247.com/images/banners/Huggies_18Jun.jpg"
+    }
+  ];

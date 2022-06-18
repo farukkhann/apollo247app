@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import { MainCompo } from './components/maincompo'
+import "./app.css"
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-     <h1>apollo</h1>
+    <MainCompo/>
     </div>
   )
 }

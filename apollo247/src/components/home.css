@@ -1,0 +1,153 @@
+#outDiv>div{
+    /* border: 1px solid black; */
+    /* color: blue; */
+}
+
+#inOne{
+    width: 45%;
+}
+#inOne>div>p:nth-child(1){
+    color: #02475B;
+   font-size: 56px;
+}
+#inOne>div>p:nth-child(2){
+    color: #0087BA;
+    font-size: 17px;
+}
+#greencard1{
+    background-color: #3c6a84;
+    border-radius: 10px;
+}
+#greencard1:hover{
+    cursor: pointer;
+}
+
+#greencard1>p{
+    color: white !important;
+    size: 14px !important;
+}
+#labbutton{
+    margin-top: 20px;
+}
+#labbutton>div{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    padding: 6px;
+    border-radius: 5px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+#carddiv{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#carddiv:hover{
+    cursor: pointer;
+}
+
+#icon1{
+    margin-right: 8px;
+}
+
+#covidqueries{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+#imagebox{
+    padding: 25px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+#iconinHealth{
+    margin-left: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+#healthContainer{
+    border-radius: 10px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    /* border: 1px solid black; */
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+#textButton>p{
+    font-size: 16px;
+    color: #07AE8B;
+}
+#textButton2{
+    font-size: 14px;
+    color: #01475B;
+}
+#tools{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 28%;
+}
+#tools:hover{
+    cursor: pointer;
+}
+#tools>p{
+    font-size: 14px;
+    color: #00485D;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#tools>img{
+    width: 30px;
+    height: 30px;
+}
+#youcan{
+    font-size: 12px;
+    color: #01475B;
+    margin-bottom: 5px;
+}
+
+
+
+.heading1{
+    font-size: 14px;
+    color: #02475B;
+    font-weight: 500;
+}
+#textblock{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.para1{
+    font-size: 16px;
+    color: #01475B;
+}
+#footer{
+    background-color: #020d11;
+    padding: 20px;
+}
+#imagedivF>img{
+    width: 100px;
+    margin-left: 42%;
+}
+
+#footHead{
+    color: #FCB716;
+    font-size: 14px;
+}
+#footerlist{
+    color: white;
+    font-size: 14px;
+}
+#footerlist>li{
+    margin: 4px;
+}
+#footerlist>li:hover{
+    cursor: pointer;
+}

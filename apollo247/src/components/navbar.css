@@ -1,0 +1,23 @@
+#navbar{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    /* position: sticky ; */
+    background-color: white;
+    top: 0px;
+
+}
+
+#logo>img{
+    width: 80px ;
+    height: 60px;
+}
+
+#options{
+    color: #02475B;
+}
+#options>p:nth-child(1){
+    font-size: 13px;
+    text-decoration: underline;
+}
+#options>p:nth-child(2){
+    font-size: 12px;
+}
