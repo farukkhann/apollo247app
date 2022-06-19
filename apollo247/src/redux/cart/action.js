@@ -64,7 +64,7 @@ export const removeCartFailure = (error) => ({
 export const    addToCart=(product)=>(dispatch)=>{
     dispatch(addToCartRequest());
     console.log(product)
-    return axios.post('http://localhost:8080/cart',product)
+    return axios.post('/cart',product)
     .then(response=>{
         dispatch(addToCartSuccess(response.data));
         
@@ -81,7 +81,7 @@ export const getCartData=()=>(dispatch)=>{
     dispatch(getCartRequest());
     return axios({
         method:"get",
-        url:"http://localhost:8080/cart",
+        url:"/cart",
         headers:{
             "Content-Type":"application/json"
         }
@@ -102,7 +102,7 @@ export const removeCart=(id)=>(dispatch)=>{
     dispatch(removeCartRequest());
     return axios({
         method:"delete",
-        url:`http://localhost:8080/cart/${id}`,
+        url:`/cart/${id}`,
         headers:{
             "Content-Type":"application/json"
         }

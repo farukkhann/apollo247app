@@ -213,18 +213,18 @@
   ],
   "cart": [
     {
-      "title": "Apollo Life Vitamin B-12, 30 Tablets Primrose Oil With Vitamin B6 1300 mg, 60 Capsules",
-      "Manfacturer": "APOLLO HOSPITALS ENTERPRISE LTD",
-      "description": "Vitamin B12 is a water-soluble vitamin that keeps your nerves and red blood cells healthy. It helps normal functioning of the nervous system & reduction of tiredness and fatigue. B vitamins help convert food into cellular energy.",
+      "title": "Mylab CoviSelf COVID-19 Rapid Antigen Self Test Kit, 1 Count",
+      "Manfacturer": "MYLAB DISCOVERY SOLUTIONS PVT LTD",
       "type": "Not Returnable",
-      "exires_on": " Apr-23",
+      "exires_on": "May-2023",
       "country_origin": "India",
-      "Manfacturer_address": "232-B, 3rd Floor, Okhla Industrial Estate, Phase-Iii, New Delhi- 110 020, India.",
-      "price": "1500",
-      "size": " 60",
-      "category": "mind_care",
-      "image": "https://newassets.apollo247.com/pub/media/catalog/product/i/m/img_20210109_174502__front__vitamin_b-12_tablets.jpg",
-      "id": 10
+      "category": "covid_care",
+      "Manfacturer_address": "Plot no. 99-B, Lonavala , Industrial Co-operative Estate Ltd., Nangargaon , Lonavala, Pune , Maharashtra 410401, India.",
+      "price": "212",
+      "image": "https://newassets.apollo247.com/pub/media/catalog/product/c/o/cov0120.jpeg",
+      "size": "1",
+      "description": "Mylab CoviSelf COVID-19 Rapid Antigen Self Test Kit is designed to assist you in taking a safe rapid antigen test easily at the comfort of your home. Get your and your family’s immediate COVID-19-19 Rapid Antigen test done quickly and hassle-free with this self-assessing kit. Now you can get tested for COVID-19 in just 15 minutes with this test kit.",
+      "id": 2
     }
   ]
 }

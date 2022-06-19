@@ -36,7 +36,7 @@ export const getProducts=()=>(dispatch)=>{
     dispatch(getProductsRequest());
     return axios({
         method:"get",
-        url:"http://localhost:8080/products",
+        url:"/products",
         headers:{
             "Content-Type":"application/json"
         }
@@ -55,7 +55,7 @@ export const getFilteredProducts=(payload)=>(dispatch)=>{
     // dispatch(getFilteredProductsRequest(payload));
     return axios({
         method:"get",
-        url:"http://localhost:8080/products",
+        url:"/products",
         params:{
             category:payload
         }
