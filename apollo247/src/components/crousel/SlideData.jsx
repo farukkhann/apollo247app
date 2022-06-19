@@ -1,26 +1,32 @@
 export const SlideData = [
     {
       image:
-        "https://newassets.apollo247.com/images/banners/PremiumHealth_circle.jpg"
+        "https://newassets.apollo247.com/images/banners/PremiumHealth_circle.jpg",
+        id:1
     },
     {
       image:
-        "https://newassets.apollo247.com/images/banners/First3.jpg"
+        "https://newassets.apollo247.com/images/banners/First3.jpg",
+        id:2
     },
     {
       image:
-        "https://newassets.apollo247.com/images/banners/Super_30.jpg"
+        "https://newassets.apollo247.com/images/banners/Super_30.jpg",
+        id:3
     },
     {
       image:
-      "https://newassets.apollo247.com/images/banners/HH_16June.jpg"
+      "https://newassets.apollo247.com/images/banners/HH_16June.jpg",
+      id:4
     },
     {
       image:
-      "https://newassets.apollo247.com/images/banners/Huggies_18Jun.jpg"
+      "https://newassets.apollo247.com/images/banners/Huggies_18Jun.jpg",
+      id:5
     },
     {
         image:
-        "https://newassets.apollo247.com/images/banners/Huggies_18Jun.jpg"
+        "https://newassets.apollo247.com/images/banners/Huggies_18Jun.jpg",
+        id:6
     }
   ];

@@ -16,8 +16,10 @@ import { BsChatRightText } from "react-icons/bs"
 import { MdOutlineCoronavirus } from "react-icons/md"
 
 import "./home.css";
+import { useNavigate } from "react-router-dom"
 
 export const Home = () => {
+    const navigate=useNavigate()
     const contentStyle = {
         height: '160px',
         color: '#fff',
@@ -39,7 +41,7 @@ export const Home = () => {
                     <ChevronRightIcon marginBottom={"12px"} alignSelf={"end"} color={"white"} />
 
                 </Flex>
-                <Flex margin={"5px"} padding={"15px"} id="greencard1">
+                <Flex onClick={()=>navigate("/product")} margin={"5px"} padding={"15px"} id="greencard1">
                     <Image margin={"5px"} width={"35px"} src="https://newassets.apollo247.com/images/ic_medicines.png"></Image>
                     <Text >Buy Medicines with Essentials</Text>
                     <ChevronRightIcon marginBottom={"15px"} alignSelf={"end"} color={"white"} />
@@ -177,7 +179,7 @@ export const Home = () => {
                 <ListItem>Touched billions of lives by offering exceptional clinical outcomes</ListItem>
             </UnorderedList>
         </Box>
-        <Box id="footer">
+        {/* <Box id="footer">
             <Box id="imagedivF">
                 <Image src="https://newassets.apollo247.com/images/ic_logo.png"></Image>
             </Box>
@@ -230,7 +232,7 @@ export const Home = () => {
 
             </Box>
 
-        </Box>
+        </Box> */}
 
 
     </>

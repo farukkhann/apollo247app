@@ -11,7 +11,7 @@ import {
   Box,
   Flex,
   Avatar,
-  Link,
+  // Link,
   Button,
   Menu,
   MenuButton,
@@ -27,11 +27,13 @@ import {
   Text,
 
 } from "@chakra-ui/react"   ;
-import {FaShoppingCart} from "react-icons/fa"
+import { Link, useNavigate } from "react-router-dom";
+import {FaBluetooth, FaShoppingCart} from "react-icons/fa"
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 
 export  const  Navbar=()=> {
+  const navigate=useNavigate()
     const { colorMode, toggleColorMode } = useColorMode();
     // const { isOpen, onOpen, onClose } = useDisclosure();
     return (
@@ -39,7 +41,9 @@ export  const  Navbar=()=> {
         <Box height={100} id="navbar" bg={useColorModeValue('whiteAlpha.100', 'whiteAlpha.700')} px={4}>
           <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
             <Box id="logo">
-                <Image  src="https://newassets.apollo247.com/images/ic_logo.png"></Image>
+              {/* <Link to={"/"}> */}
+                <Image onClick={()=>navigate("/")}  src="https://newassets.apollo247.com/images/ic_logo.png"></Image>
+              {/* </Link> */}
             </Box>
   
             <Flex alignItems={'center'}>
@@ -49,15 +53,15 @@ export  const  Navbar=()=> {
                 </Button> */}
                 {/* <Text>doctor</Text> */}
                 <Box id="options">
-                    <Text>DOCTORS</Text>
+                    <Text >DOCTORS</Text>
                     <Text>Consult online</Text>
                 </Box>
                 <Box id="options" >
-                    <Text>
-                        PHARMANCY
+                    <Text >
+                       <Link  to={"/product"}>PHARMANCY</Link> 
                     </Text>
                     <Text>
-                        Medicines  other products
+                    <Link to={"/product"}>Medicines  other products</Link> 
                     </Text>
                 </Box>
                 <Box id="options" >
@@ -76,7 +80,11 @@ export  const  Navbar=()=> {
                         Free delivery  more
                     </Text>
                 </Box>
-                <Box><FaShoppingCart/></Box>
+                <Box>
+                  <Link to={"/cart"}  >
+                  <FaShoppingCart />
+                  </Link>
+                </Box>
                 
                 <Menu>
                   <MenuButton

@@ -1,0 +1,23 @@
+#footer{
+    background-color: #020d11;
+    padding: 20px;
+}
+#imagedivF>img{
+    width: 100px;
+    margin-left: 42%;
+}
+
+#footHead{
+    color: #FCB716;
+    font-size: 14px;
+}
+#footerlist{
+    color: white;
+    font-size: 14px;
+}
+#footerlist>li{
+    margin: 4px;
+}
+#footerlist>li:hover{
+    cursor: pointer;
+}

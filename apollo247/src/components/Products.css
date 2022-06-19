@@ -1,0 +1,163 @@
+
+
+#underNav{
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#underNav>p{
+font-size: 12px;
+color: #02475B;
+}
+#underNav>p:hover{
+    cursor: pointer;
+    
+}
+#searchBox{
+    margin: 5px;
+}
+
+
+#outerContainer2{
+    width: 95%;
+    margin: auto;
+}
+
+#searchsys{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 
+#krosel{
+    width: 71%;
+} */
+
+#offers{
+/* width: 100%; */
+width:30%;
+}
+#offersMain{
+    /* border: 1px solid black; */
+    /* justify-content: space-around; */
+    padding: 20px;
+    /* padding-left: 50px; */
+    /* width: 100%; */
+}
+#offersMain>p:hover{
+    cursor: pointer;
+}
+#offersMain>p{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #02475B;
+}
+#upload{
+    padding: 10px;
+}
+/* #upload>div>button{
+    
+} */
+#upload>div>p{
+font-size: 14px;
+color: #02475B;
+margin: 10px;
+}
+#upload>div>img{
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#orders{
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    padding:10px
+}
+#orders:hover{
+    cursor: pointer;
+}
+#orders>p{
+    font-size: 16px;
+    color: #02475B;
+}
+#icon{
+    width: 30px;
+}
+
+#catDetails{
+    font-size: 14px;
+    color: #02475B;
+}
+
+
+#outcards{
+    width: 95%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+#card1{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#card1:hover{
+    cursor: pointer;
+}
+#card1>img{
+    width: 28px;
+}
+#card1>p{
+    margin-left: 5px;
+    font-size: 14px;
+    color: #02475B;
+}
+
+#proCard{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* width: 170px;  */
+    /* overflow: hidden; */
+    padding: 20px;
+    /* overflow:hidden; */
+    /* word-wrap: break-all; */
+    /* height: 180px; */
+    /* position: relative; */
+    border-radius: 10px;
+    
+}
+#mainProducts{
+    margin: auto;
+    width: 95%;
+    /* border: 1px solid black; */
+}
+
+#prodTitle{
+    font-size: 12px;
+    color: #01475B;
+}
+#prodPrice{
+    color: #01475B;
+    font-size: 14px;
+}
+
+#AddtoCart{
+    font-size: 16px;
+    color: #FC9916;
+}
+#AddtoCart:hover{
+    cursor: pointer;
+}
+#mainFlex{
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-gap: 40px;
+}
+#prodImage{
+    width: 200px;
+    /* border: 1px solid red; */
+    height: 180px;
+}
+#prodInfo{
+    height: 70px;
+}
