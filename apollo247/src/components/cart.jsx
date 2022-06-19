@@ -6,15 +6,18 @@ import "./cart.css"
 import { CloseIcon } from "@chakra-ui/icons"
 import { useState } from "react"
 import { removeCart } from "../redux/cart/action"
+import { Navigate, useNavigate } from "react-router-dom"
 
 
 export const Cartcomo = () => {
+    const navigate=useNavigate()
     const dispatch = useDispatch()
     const [count, setcount] = useState(1)
     const [total, setTotal] = useState(0)
     const ref = useRef()
     useEffect(() => {
         dispatch(getCartData()).then((res) => {
+            setcount(count+1)
             console.log(res)
         })
     }, [])
@@ -77,7 +80,7 @@ export const Cartcomo = () => {
                 <Box marginLeft={"50px"} marginTop={"100px"}>
                 <Text >Cart Breakdown</Text>
                 <Text>total:{total}</Text>
-                <Button colorScheme={"gray"}>Checkout</Button>
+                <Button colorScheme={"gray"} onClick={()=>navigate("/checkout")}>Checkout</Button>
                 </Box>
                
             </Box>

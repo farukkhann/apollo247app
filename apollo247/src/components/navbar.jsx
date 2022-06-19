@@ -112,9 +112,9 @@ export  const  Navbar=()=> {
                     </Center>
                     <br />
                     <MenuDivider />
-                    <MenuItem>Your Servers</MenuItem>
-                    <MenuItem>Account Settings</MenuItem>
-                    <MenuItem>Logout</MenuItem>
+                    <MenuItem onClick={()=>navigate("/login")}>Login</MenuItem>
+                    <MenuItem onClick={()=>navigate("/register")}>SignUp</MenuItem>
+                    <MenuItem >Logout</MenuItem>
                   </MenuList>
                 </Menu>
               </Stack>

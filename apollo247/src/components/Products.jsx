@@ -26,6 +26,7 @@ import { addToCart } from "../redux/cart/action"
 export const ProductsCompo = () => {
     const dispatch = useDispatch()
     const value = useSelector((state) => state)
+    console.log(value)
     useEffect(() => {
         dispatch(getProducts())
     }, [])
