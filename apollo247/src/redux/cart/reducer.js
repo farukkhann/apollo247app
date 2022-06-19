@@ -46,6 +46,25 @@ export const cartReducer = (state = initState, action) => {
         error: action.payload,
       };
 
+    // case cartActions.REMOVE_CART_REQUEST:
+    //   return {
+    //     ...state,
+    //     loading: true,
+    //     error: null,
+    //   };
+    // case cartActions.REMOVE_CART_SUCCESS:
+    //   return {
+    //     ...state,
+    //     loading: false,
+    //   };
+
+    // case cartActions.REMOVE_CART_FAILURE:
+    //   return {
+    //     ...state,
+    //     loading: false,
+    //     error: action.payload,
+    //   };
+
     default:
       return state;
   }

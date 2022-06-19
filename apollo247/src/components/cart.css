@@ -1,0 +1,36 @@
+#head>p{
+    font-size: 14px;
+    color: #02475B;
+    font-weight: 500;
+}
+
+
+#itemsCart{
+    font-size: 16px;
+    color: #02475B;
+    font-weight: 400;
+}
+
+#yellowText{
+    color: #FC9916;
+    font-weight: 400;
+    font-size: 16px;
+}
+#container{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#image{
+    width: 150px;
+}
+#flex1{
+    width: 25%;
+    padding: 5px;
+}
+#flex2{
+width: 75%;
+padding: 10px;
+
+}

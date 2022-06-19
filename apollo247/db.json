@@ -213,72 +213,18 @@
   ],
   "cart": [
     {
-      "product": {
-        "title": "Himalaya Liv.52 Syrup, 200 ml",
-        "Manfacturer": "THE HIMALAYA DRUG COMPANY",
-        "description": "Himalaya Liv.52 Syrup unparalleled in liver care",
-        "type": "Not Returnable",
-        "exires_on": " Apr-29",
-        "country_origin": "India",
-        "Manfacturer_address": "232-B, 3rd Floor, Okhla Industrial Estate, Phase-Iii, New Delhi- 110 020, India.",
-        "price": "135",
-        "size": "200 ml",
-        "category": "liver_care",
-        "image": "https://newassets.apollo247.com/pub/media/catalog/product/l/i/liv0021_2.jpg",
-        "id": 11
-      },
-      "id": 1
-    },
-    {
-      "product": {
-        "title": "Apollo Life Cod Liver Oil 300 mg, 100 Capsules",
-        "Manfacturer": "APOLLO HOSPITALS ENTERPRISE LTD",
-        "description": "Cereal made from healthy grains used for a healthy diet. Manages sugar levels and provides right amount of fibre for a healthy digestive function. Easy to use pouch packaging for freshness lock.  Uses of Apollo Life Cod Liver Oil 300 mg, 100 Capsules",
-        "type": "Not Returnable",
-        "exires_on": "Mar-23",
-        "country_origin": "India",
-        "Manfacturer_address": "100/101, World Trade Centre, Barakhamba Lane, New Delhi - 110 001..",
-        "price": "203.00",
-        "size": "200 ml",
-        "category": "cardio_care",
-        "image": "https://newassets.apollo247.com/pub/media/catalog/product/i/m/img_20210108_174751__front__cod_liver_oil_300mg.jpg",
-        "id": 15
-      },
-      "id": 2
-    },
-    {
-      "product": {
-        "title": "Himalaya Liv.52 Syrup, 200 ml",
-        "Manfacturer": "THE HIMALAYA DRUG COMPANY",
-        "description": "Himalaya Liv.52 Syrup unparalleled in liver care",
-        "type": "Not Returnable",
-        "exires_on": " Apr-29",
-        "country_origin": "India",
-        "Manfacturer_address": "232-B, 3rd Floor, Okhla Industrial Estate, Phase-Iii, New Delhi- 110 020, India.",
-        "price": "135",
-        "size": "200 ml",
-        "category": "liver_care",
-        "image": "https://newassets.apollo247.com/pub/media/catalog/product/l/i/liv0021_2.jpg",
-        "id": 11
-      },
-      "id": 3
-    },
-    {
-      "product": {
-        "title": "GNC Triple Strength Fish Oil, 60 Capsules",
-        "Manfacturer": "GUARDIAN HEALTHCARE SERVICES PVT LTD",
-        "description": "GNC Triple Strength Fish Oil Softgel is a dietary supplement, which comes loaded with the benefits of omega 3 fatty acids. Consuming these softgels on a regular basis can help you reap the benefits of omega 3 fatty acids, which includes EPA and DHA as the active ingredients.",
-        "type": "Not Returnable",
-        "exires_on": "Mar-23",
-        "country_origin": "India",
-        "Manfacturer_address": "100/101, World Trade Centre, Barakhamba Lane, New Delhi - 110 001..",
-        "price": "1119",
-        "size": "60 Capsules",
-        "category": "cardio_care",
-        "image": "https://newassets.apollo247.com/pub/media/catalog/product/g/n/gnc_triple_strength_fish_oil.jpg",
-        "id": 16
-      },
-      "id": 4
+      "title": "GNC Triple Strength Fish Oil, 60 Capsules",
+      "Manfacturer": "GUARDIAN HEALTHCARE SERVICES PVT LTD",
+      "description": "GNC Triple Strength Fish Oil Softgel is a dietary supplement, which comes loaded with the benefits of omega 3 fatty acids. Consuming these softgels on a regular basis can help you reap the benefits of omega 3 fatty acids, which includes EPA and DHA as the active ingredients.",
+      "type": "Not Returnable",
+      "exires_on": "Mar-23",
+      "country_origin": "India",
+      "Manfacturer_address": "100/101, World Trade Centre, Barakhamba Lane, New Delhi - 110 001..",
+      "price": "1119",
+      "size": "60 Capsules",
+      "category": "cardio_care",
+      "image": "https://newassets.apollo247.com/pub/media/catalog/product/g/n/gnc_triple_strength_fish_oil.jpg",
+      "id": 16
     }
   ]
 }

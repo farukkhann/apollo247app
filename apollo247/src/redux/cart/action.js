@@ -44,22 +44,28 @@ export const getCartFailure = (error) => ({
     payload: error
 });
 
+//////////////////////////////////////////////////////////////////////////////////////////////
+export const removeCartRequest = () => ({
+    type: cartActions.REMOVE_CART_REQUEST,
+});
+export const removeCartSuccess = () => ({
+    type: cartActions.REMOVE_CART_SUCCESS,
+    // payload: product
+}
+);
+export const removeCartFailure = (error) => ({
+    type: cartActions.REMOVE_CART_FAILURE,
+    payload: error
+}
+);
 
 
 
 export const    addToCart=(product)=>(dispatch)=>{
     dispatch(addToCartRequest());
     console.log(product)
-    return axios({
-        method:"post",
-        url:"http://localhost:8080/cart",
-        data:{
-            product:product
-        },
-        headers:{
-            "Content-Type":"application/json"
-        }
-    }).then(response=>{
+    return axios.post('http://localhost:8080/cart',product)
+    .then(response=>{
         dispatch(addToCartSuccess(response.data));
         
     }).catch(error=>{
@@ -88,4 +94,26 @@ export const getCartData=()=>(dispatch)=>{
     )
 }
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+export const removeCart=(id)=>(dispatch)=>{
+    dispatch(removeCartRequest());
+    return axios({
+        method:"delete",
+        url:`http://localhost:8080/cart/${id}`,
+        headers:{
+            "Content-Type":"application/json"
+        }
+    }).then(response=>{
+        alert("Product Removed from Cart");
+        dispatch(removeCartSuccess(response.data));
+
+    })
+    .catch(error=>{
+        dispatch(removeCartFailure(error));
+    }
+    )
+}
 

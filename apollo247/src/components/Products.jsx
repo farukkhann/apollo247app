@@ -130,7 +130,7 @@ export const ProductsCompo = () => {
                             <Text id="prodPrice">MRP Rs. {ele.price}</Text>
                             </div>
                             <div>
-                            <Text  id="AddtoCart" onClick={()=>dispatch(addToCart(ele))}>Add to Cart</Text>
+                            <Text  id="AddtoCart" onClick={()=>dispatch(addToCart(ele)).then(()=>alert("product added successfully"))}>Add to Cart</Text>
                             </div>
           
                         </div>
