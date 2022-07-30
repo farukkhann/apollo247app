@@ -49,14 +49,13 @@ export const Home = () => {
                 <Flex id="labbutton" >
                     <Flex margin={"5px"}>
                         <Image h={"8"} w={"8"} src="https://cdn-icons-png.flaticon.com/512/1860/1860786.png"></Image>
-                        <Text marginTop={"1"}>Book Lab Test</Text>
+                        <Text  fontSize={"15px"} >Book lab test</Text>
                     </Flex>
-                    <Flex margin={"5px"}>
-                        <Image h={"8"} w={"8"} src="https://cdn-icons.flaticon.com/png/512/1412/premium/1412299.png?token=exp=1655525739~hmac=827dda25900dc4acf1661faf22efb60d"></Image>
-                        <Text marginTop={"1"}>Book Lab Test</Text>
+                    <Flex padding={"10px"} margin={"5px"}>
+                        <Image h={"8"} w={"8"} src="https://newassets.apollo247.com/images/ic-prescription.svg"></Image>
+                        <Text  fontSize={"15px"} >View Health Records</Text>
                     </Flex>
                 </Flex>
-
             </Box>
             <Box paddingTop={"120px"} paddingLeft={"10"}>
                 <Image src="https://newassets.apollo247.com/images/img-doctors@1x.jpg"></Image>

@@ -213,18 +213,18 @@
   ],
   "cart": [
     {
-      "title": "Mylab CoviSelf COVID-19 Rapid Antigen Self Test Kit, 1 Count",
-      "Manfacturer": "MYLAB DISCOVERY SOLUTIONS PVT LTD",
+      "title": "Apollo Life Multi Vitamin for Men, 30 Tablets",
+      "Manfacturer": "APOLLO HOSPITALS ENTERPRISE LTD",
+      "description": "Colgate Toothpaste for Diabetics, An Advanced Ayurvedic Solution Toothpaste is a special toothpaste for diabetic people which helps to fight gum infection. Colgate worked with the best Dentists, Diabetologists, and Ayurvedic experts to give you the right protection — a unique formula, designed to make you smile. Its unique formula kills infection-causing anaerobic bacteria in the mouth and helps as a part of overall completes your diabetes management.",
       "type": "Not Returnable",
-      "exires_on": "May-2023",
+      "exires_on": " Apr-23",
       "country_origin": "India",
-      "category": "covid_care",
-      "Manfacturer_address": "Plot no. 99-B, Lonavala , Industrial Co-operative Estate Ltd., Nangargaon , Lonavala, Pune , Maharashtra 410401, India.",
-      "price": "212",
-      "image": "https://newassets.apollo247.com/pub/media/catalog/product/c/o/cov0120.jpeg",
-      "size": "1",
-      "description": "Mylab CoviSelf COVID-19 Rapid Antigen Self Test Kit is designed to assist you in taking a safe rapid antigen test easily at the comfort of your home. Get your and your family’s immediate COVID-19-19 Rapid Antigen test done quickly and hassle-free with this self-assessing kit. Now you can get tested for COVID-19 in just 15 minutes with this test kit.",
-      "id": 2
+      "Manfacturer_address": "232-B, 3rd Floor, Okhla Industrial Estate, Phase-Iii, New Delhi- 110 020, India.",
+      "price": "180",
+      "size": "70 gm",
+      "category": "mind_care",
+      "image": "https://newassets.apollo247.com/pub/media/catalog/product/i/m/img_9910.jpg",
+      "id": 8
     }
   ]
 }

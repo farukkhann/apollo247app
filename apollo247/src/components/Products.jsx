@@ -5,6 +5,7 @@ import { getFilteredProducts, getProducts } from "../redux/products/action"
 
 import {
     Heading,
+    SkeletonText,
     Flex,
     Text,
     Input,
@@ -13,8 +14,6 @@ import {
     Button,
     Image,
     Spinner
-
-
 } from "@chakra-ui/react"
 import { MdLocalOffer } from "react-icons/md"
 import { RiCapsuleFill } from "react-icons/ri"
@@ -32,14 +31,22 @@ export const ProductsCompo = () => {
     }, [])
     // console.log(value.products.loading)
     if (value.products.loading) {
-        return <Spinner
-           marginLeft={"40%"}
-            thickness='4px'
-            speed='0.65s'
-            emptyColor='gray.200'
-            color='blue.500'
-            size='xl'
-        />
+        // return <Spinner
+        //    marginLeft={"45%"}
+        //     thickness='4px'
+        //     speed='0.65s'
+        //     emptyColor='gray.200'
+        //     color='blue.500'
+        //     size='xl'
+        //     alignSelf={"center"}
+        //     // padding={"20"}
+        // />
+        return<Box padding='6' boxShadow='lg' bg='white'>
+        <SkeletonText mt='4' noOfLines={4} spacing='4' />
+        <SkeletonText mt='4' noOfLines={4} spacing='4' />
+        <SkeletonText mt='4' noOfLines={4} spacing='4' />
+        <SkeletonText mt='4' noOfLines={4} spacing='4' />
+      </Box>
     }
     else {
 
@@ -63,9 +70,9 @@ export const ProductsCompo = () => {
             <hr />
             <Flex id="outerContainer2" >
                 <Box width={"70%"} >
-                    <Flex id="searchsys">
+                    <Flex id="searchsys" width={"95%"}>
                         <Input id="searchBox" variant={"filled"} placeholder="Search Medicine Brands and more"></Input>
-                        <Search2Icon _hover={{ "cursor": "pointer" }} borderRadius={"7px"} boxSize={"10"} padding={"9px"} background={"gray.100"} marginTop={"6px"} />
+                        <Search2Icon _hover={{ "cursor": "pointer" }} borderRadius={"5px"} boxSize={"10"} padding={"9px"} background={"gray.100"} marginTop={"6px"} />
                     </Flex>
                     <Box id="krosel">
                         <Crousel />
@@ -124,19 +131,17 @@ export const ProductsCompo = () => {
             <div id="mainProducts" >
                 <div id="mainFlex">
                     {value?.products?.products.map((ele) =>
-                        <div id="proCard" key={ele.id}  >
-                            <Image id="prodImage" src={ele.image}></Image>
-                            <div id="prodInfo">
+                        <div id="proCard" key={ele.id}   >
+                            <Image paddingTop={"20px"}  paddingLeft={"30px"} id="prodImage" src={ele.image}></Image>
+                            <Box m={"10px"} h={"70px"} id="prodInfo">
                             <Text id="prodTitle">{ele.title}</Text>
-                            <Text id="prodPrice">MRP Rs. {ele.price}</Text>
-                            </div>
-                            <div>
+                            <Text  id="prodPrice">MRP Rs. {ele.price}</Text>
+                            </Box>
+                            <Box padding={"3"} borderBottomRadius={"md"} textAlign={"center"} _hover={{bg:"blackAlpha.300",cursor:"pointer"}} >
                             <Text  id="AddtoCart" onClick={()=>dispatch(addToCart(ele)).then(()=>alert("product added successfully"))}>Add to Cart</Text>
-                            </div>
-          
+                            </Box>
                         </div>
                     )}
-
                 </div>
             </div>
 

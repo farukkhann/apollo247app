@@ -116,20 +116,11 @@ margin: 10px;
 
 #proCard{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* width: 170px;  */
-    /* overflow: hidden; */
-    padding: 20px;
-    /* overflow:hidden; */
-    /* word-wrap: break-all; */
-    /* height: 180px; */
-    /* position: relative; */
     border-radius: 10px;
-    
 }
 #mainProducts{
     margin: auto;
     width: 95%;
-    /* border: 1px solid black; */
 }
 
 #prodTitle{
@@ -152,12 +143,14 @@ margin: 10px;
     display: grid;
     grid-template-columns: repeat(4,22%);
     grid-gap: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 #prodImage{
-    width: 200px;
+    width: 180px;
     /* border: 1px solid red; */
-    height: 180px;
+    height: 160px;
 }
-#prodInfo{
-    height: 70px;
-}
+/* #prodInfo{
+    height: 80px;
+} */
