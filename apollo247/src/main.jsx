@@ -10,7 +10,7 @@ import axios from "axios"
 
 axios.defaults.baseURL="https://apollo247-api-production.up.railway.app/"
 
-
+//random comment
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <ChakraProvider>
