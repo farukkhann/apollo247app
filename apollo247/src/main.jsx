@@ -8,7 +8,8 @@ import {store} from "./redux/store"
 import axios from "axios"
 
 
-axios.defaults.baseURL="https://apollo247api.herokuapp.com"
+axios.defaults.baseURL="https://apollo247-api-production.up.railway.app/"
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
