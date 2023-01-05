@@ -6,5 +6,8 @@ This is a clone of apollo247.com wesite that i have built as an individul projec
 ## Tech Stack
 
 **Client:** Html, css , javascript , React, Redux, chakra-ui
+**Server:** Nodejs, express, Mongodb
+**deployement** vercel, cyclic
 
-**Server:** json-server, heroku
+## Features
+login, signup, filter,sort, cart
